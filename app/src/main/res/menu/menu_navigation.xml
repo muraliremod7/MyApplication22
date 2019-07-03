@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:title="Home"
+            android:icon="@drawable/ic_dashboard_black_24dp"/>
+        <item
+            android:id="@+id/dailytests"
+            android:title="Daily Tests"
+            android:icon="@drawable/ic_playlist_add_check_black_24dp"/>
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_black_24dp"/>
+        <item
+            android:id="@+id/action_logout"
+            android:icon="@drawable/logoff"
+            android:title="@string/action_logout" />
+    </group>
+</menu>

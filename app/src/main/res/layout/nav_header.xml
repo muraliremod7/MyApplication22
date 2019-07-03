@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logoff"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/hostel_admin_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Takshasila IAS Academy"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/hostel_admin_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="999999999"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+</LinearLayout>
